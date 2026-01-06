@@ -76,7 +76,7 @@ if (newsletterForm) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (email && emailRegex.test(email)) {
             // Show success message
-            showNotification('Thank you for subscribing! We\'ll keep you updated.');
+            showNotification('Thank you for subscribing! We will keep you updated.');
             emailInput.value = '';
         } else {
             showNotification('Please enter a valid email address.');
@@ -101,7 +101,7 @@ function showNotification(message) {
         top: 100px;
         left: 50%;
         transform: translateX(-50%);
-        background-color: var(--secondary-color);
+        background-color: #ff6b35;
         color: white;
         padding: 15px 30px;
         border-radius: 50px;
